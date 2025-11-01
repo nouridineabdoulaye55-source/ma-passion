@@ -6,8 +6,10 @@
     <title>mon site web</title>
     <link rel="stylesheet" href="src/output.css" />
   </head>
-  <body class="mx-auto p-8">
-    <nav class="mx-auto flex justify-between shadow-md gap-7 p-7">
+  <body class="mx-auto p-6 bg-neutral-500">
+    <nav
+      class="mx-auto flex justify-between shadow-md gap-7 p-7 bg-emerald-400"
+    >
       <div class="flex justify-between">
         <img
           src="src/image/modem.png"
@@ -23,13 +25,6 @@
           <div>
             <li><a href="#o">mes citations</a></li>
           </div>
-
-          <li>
-            <a
-              href="https://citation-celebre.leparisien.fr/citation/video#:~:text=TOP%2010%20des%20citations%20vid%C3%A9o%20%28de%20c%C3%A9l%C3%A9brit%C3%A9s%2C%20de,class%C3%A9s%20par%20auteur%2C%20th%C3%A9matique%2C%20nationalit%C3%A9%20et%20par%20culture."
-              >voire les videos
-            </a>
-          </li>
         </div>
 
         <li class="hover:text-blue-600 font-bold">
@@ -39,10 +34,16 @@
             >me contacter</a
           >
         </li>
+        <li class="hover:text-amber-300 font-bold">
+          <a
+            href="https://citation-celebre.leparisien.fr/citation/video#:~:text=TOP%2010%20des%20citations%20vid%C3%A9o%20%28de%20c%C3%A9l%C3%A9brit%C3%A9s%2C%20de,class%C3%A9s%20par%20auteur%2C%20th%C3%A9matique%2C%20nationalit%C3%A9%20et%20par%20culture."
+            >voire les videos
+          </a>
+        </li>
       </ul>
     </nav>
     <section
-      class="flex flex-col bg-blue-400 sm:flex-row sm:space-x-4 max-w-[540px] mx-auto p-4"
+      class="flex flex-col sm:flex-row sm:space-x-4 max-w-[540px] mx-auto p-4 my-5"
     >
       <div class="my-20 mt-3">
         <h1 class="font-bold text-4xl sm:text-2xl">
@@ -52,17 +53,21 @@
         <p class="text-2xl">les 10 citations qui pourait changer ta vie</p>
       </div>
 
-      <div class="w-80 rounded-md sm:">
-        <img src="src/image/n.jpg" class="mx-10 items-center" alt="" />
+      <div class="w-100 rounded-md sm:">
+        <img src="src/image/n.jpg" class="items-center" alt="" />
       </div>
     </section>
     <section class="mx-auto" id="o">
-      <h1 class="text-center my-20 font-bold text-3xl">mes citations</h1>
+      <h1
+        class="text-center my-20 font-bold text-3xl bg-amber-500 rounded-full hover:bg-blue-800"
+      >
+        mes citations
+      </h1>
       <div class="grid grid-cols-1 sm:grid-cols-2 mx-15 md:grid-cols-3 gap-4">
         <div>
           <img
             src="src/image/t4.jpeg"
-            class="w-60 py-3 rounded-4xl hover=text-"
+            class="w-100 py-3 rounded-4xl hover=text-"
             alt=""
           />
           <div>
@@ -74,7 +79,7 @@
         </div>
 
         <div>
-          <img src="src/image/t5.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t5.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « Il ne faut jamais précipiter les choses. Si une chose doit
@@ -85,7 +90,7 @@
         </div>
 
         <div>
-          <img src="src/image/t9.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t9.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « Parfois, la meilleure chose à faire est d’arrêter de penser, de
@@ -96,7 +101,7 @@
         </div>
 
         <div>
-          <img src="src/image/t2.webp" class="w-50 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t2.webp" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « N’attendez pas les bons moments pour être heureux. Soyez heureux
@@ -106,7 +111,7 @@
         </div>
 
         <div>
-          <img src="src/image/t3.webp" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t3.webp" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « Profite de chaque minute de ta vie. Sois heureux maintenant.
@@ -115,7 +120,7 @@
           </div>
         </div>
         <div>
-          <img src="src/image/t7.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t7.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <p>
             « Tu n’as pas toujours besoin de plans. Parfois, tu as juste besoin
             de respirer, d’avoir foi, de lâcher prise et de voir ce qu’il se
@@ -124,14 +129,14 @@
         </div>
 
         <div>
-          <img src="src/image/t6.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t6.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>« Sois heureux avec rien et tu seras heureux avec tout. »</p>
           </div>
         </div>
 
         <div>
-          <img src="src/image/t9.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t9.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
 
           <p>
             « Le meilleur dans la vie ne se planifie pas, il arrive tout
@@ -140,7 +145,7 @@
         </div>
 
         <div>
-          <img src="src/image/t8.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t8.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « Tu trouveras la vie belle lorsque tu apprendras à saluer au lieu
@@ -151,7 +156,7 @@
         </div>
 
         <div>
-          <img src="src/image/t9.jpeg" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t9.jpeg" class="w-100 py-3 rounded-4xl" alt="" />
           <div>
             <p>
               « Quand tu aimes ce que tu as, tu as tout ce dont tu as besoin. »
@@ -159,7 +164,7 @@
           </div>
         </div>
         <div>
-          <img src="src/image/t2.webp" class="w-60 py-3 rounded-4xl" alt="" />
+          <img src="src/image/t2.webp" class="w-100 py-3 rounded-4xl" alt="" />
           <p>
             « Ici et maintenant, je ne résiste plus, je lâche prise et
             j’apprends à faire confiance à l’Univers. J’avance avec patience,
@@ -176,7 +181,7 @@
         <p class="text-center text-white font-bold">
           clicqer pour voir d'autre citations
         </p>
-        <p class="border-2 w-10 bg-amber-300 text-center">
+        <p class="border-2 w-10 bg-amber-300 text-center hover:bg-blue-800">
           <a
             href="https://www.bing.com/videos/search?q=video+proverbe+fran%c3%a7ais&qpvt=video+proverbe+fran%c3%a7ais&FORM=VDRE"
             >click</a
